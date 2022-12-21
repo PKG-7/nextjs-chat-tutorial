@@ -10,7 +10,7 @@ export default function Auth() {
   return (
     <div className='background'>
       <div className='auth-container'>
-        <form onSubmit={e => e.preventDefault} className='auth-form'>
+        <form onSubmit={e => e.preventDefault()} className='auth-form'>
           <div className='auth-title'>PKG Chat</div>
 
           <div className='input-container'>
